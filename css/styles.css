@@ -1,0 +1,79 @@
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right bottom, #89ace1, #7ea6e2, #74a1e2, #689be3, #5c95e3, #5492e4, #4c90e5, #438de6, #3d8de8, #358deb, #2d8eed, #218ef0)!important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-left {
+  width: 50%;
+  background: url('../images/img-prueba.jpg') center ;
+  background-size: cover;
+}
+
+.card {
+  height: 500px;
+  overflow: hidden;
+  border: 0 !important;
+  border-radius: 20px !important;
+  box-shadow: 0 0 17px 10px rgb(0 0 0 / 30%);
+}
+
+.card-body {
+  padding: 2rem;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.form-box {
+  align-items: center;
+  justify-content: center;
+}
+
+.form-input {
+  position: relative;
+}
+
+.form-input input {
+  width: 100%;
+  height: 45px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  box-shadow: none;
+  border: 1px solid #00000020;
+  border-radius: 50px;
+  outline: none;
+  background: transparent;
+}
+
+.form-input span {
+  position: absolute;
+  top: 10px;
+  padding-left: 15px;
+  color: #007bff;
+}
+
+.form-input input::placeholder {
+  color: black;
+  padding-left: 0px;
+}
+
+.form-input input:focus::placeholder {
+  color: #454b69;
+}
+
+.form-box button[type="submit"] {
+  border-radius: 20px;
+  width: 300px;
+}
